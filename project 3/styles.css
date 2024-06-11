@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e6779;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.tag-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ca0abe;
+}
+
+.note {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2a74a5;
+}
+
+.note h2 {
+    margin-top: 0;
+}
+/* Added styles for note content, date/time, and color variations */
+
+.note p {
+    font-size: 18px; /* Increase font size for note content */
+}
+
+.date-time {
+    font-style: italic;
+    color: #3d0769; /* Gray color for date/time */
+    margin-top: 5px;
+}
+
+.note:nth-child(odd) {
+    background-color: white;
+    color: #1e6779; /* Alternate background color for odd notes */
+}
+

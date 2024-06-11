@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans 3', sans-serif;
+  background-color: #1e6779;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #1c7d98;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  color: #f0f2f3;
+}
+
+.content {
+  margin-top: 10vh;
+  margin-left: 5%;
+  width: 40%;
+  height: 90%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.content h1 {
+  font-size: 40px;
+  color: #197ba5;
+  margin-bottom: 10px;
+}
+
+.content h2 {
+  color: #d870cc;
+  font-style: italic;
+}
+
+hr {
+  width: 20%;
+  height: 2px;
+  background: #000;
+  margin: 20px 0;
+}
+
+.content p {
+  font-size: 22px;
+  color: #000;
+}
+
+button {
+  background: #226d9c;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2b5a71;
+}
+
+button a {
+  color: #f9f4fa;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: #1c7d98;
+  color: #fff;
+  padding: 10px 0;
+}
+.portfolio-image {
+  position: absolute;
+  top: 10vh; /* Adjust as needed */
+  right: 5%; /* Adjust as needed */
+  max-width: 40%; /* Adjust as needed */
+  height: auto;
+  border-radius: 10px;
+  z-index: -1; /* Ensure the image stays behind the content */
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px #37757e;
+  }
+  100% {
+    box-shadow: 0 0 20px #294f53;
+  }
+}

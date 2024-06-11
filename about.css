@@ -1,0 +1,96 @@
+body {
+    background-color: #1e6779;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+#about {
+    padding: 50px 20px; /* Added padding */
+    max-width: 800px; /* Added max-width to center content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Style for the headings */
+.display-about {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #110101;
+}
+
+.text-primary {
+    color: #457efa;
+}
+
+/* Style for the text content */
+#about h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+/* Style for the information */
+.information {
+    display: grid; /* Set display to grid */
+    grid-template-columns: 1fr; /* Changed to single column layout */
+    gap: 20px;
+}
+
+.information > div {
+    display: grid; /* Set display to grid */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* Change background color to white */
+    color: #000; /* Change text color to black */
+}
+
+.personal-info {
+    color: #000;
+}
+
+.text-secondary {
+    color: #666;
+}
+
+/* Style for buttons */
+#about .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.about-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#about .btn.blue {
+    background-color: #fa4545;
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+}
+
+#about .btn.blue:hover {
+    background-color: #3454d1;
+}
+
+#about .btn.btn-outline-primary {
+    color: #457efa;
+    border: 1px solid #457efa;
+}
+
+#about .btn.btn-outline-primary:hover {
+    background-color: #457efa;
+    color: #fff;
+}
